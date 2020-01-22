@@ -1,7 +1,8 @@
 const person = {
   name: "Antoine",
   age: 23,
-  hobbies: ["Football", "Musculation"]
+  hobbies: ["Football", "Musculation"],
+  role: [2, "author"]
 };
 
 let favoriteActivities: string[];
