@@ -1,9 +1,5 @@
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-  const result = n1 + n2;
+function combine(input1: number, input2: number) {
+  const result = input1 + input2;
 
-  if (showResult) {
-    console.log(phrase + result);
-  } else {
-    return result;
-  }
+  return result;
 }
