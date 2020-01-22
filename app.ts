@@ -1,5 +1,9 @@
 let userInput: unknown;
+let userName: string;
 
 userInput = "Test";
 userInput = 14;
-userInput = false;
+
+if (typeof userInput === "string") {
+  userName = userInput;
+}
