@@ -18,3 +18,7 @@ combineValues = add;
 console.log(combineValues(14, 10));
 
 printResult(add(14, 10));
+
+addAndHandle(14, 10, result => {
+  console.log(result);
+});
