@@ -6,6 +6,8 @@ function printResult(num: number) {
   console.log("Result is " + num);
 }
 
+function addAndHandle(n1: number, n2: number, cb: () => void) {}
+
 let combineValues: (a: number, b: number) => number;
 
 combineValues = add;
