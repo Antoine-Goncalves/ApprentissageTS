@@ -6,4 +6,10 @@ function printResult(num: number) {
   console.log("Result is " + num);
 }
 
+let combineValues: Function;
+
+combineValues = add;
+
+console.log(combineValues(14, 10));
+
 printResult(add(14, 10));
