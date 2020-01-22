@@ -10,5 +10,5 @@ favoriteActivities = ["Football"];
 console.log(person.name);
 
 for (let hobbie of person.hobbies) {
-  console.log(hobbie);
+  console.log(hobbie.toUpperCase());
 }
