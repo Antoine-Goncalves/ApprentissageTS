@@ -13,6 +13,4 @@ const number1 = 14;
 const number2 = 10;
 const printResult = true;
 
-const result = add(number1, number2, printResult);
-
-console.log(result);
+add(number1, number2, printResult);
