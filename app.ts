@@ -8,3 +8,7 @@ let favoriteActivities: string[];
 favoriteActivities = ["Football"];
 
 console.log(person.name);
+
+for (let hobbie of person.hobbies) {
+  console.log(hobbie);
+}
