@@ -1,6 +1,7 @@
 const person = {
   name: "Antoine",
-  age: 23
+  age: 23,
+  hobbies: ["Football", "Musculation"]
 };
 
-console.log(person);
+console.log(person.name);
