@@ -20,7 +20,7 @@ function combine(
 const combinedAges = combine(23, 23, "as-number");
 console.log(combinedAges);
 
-const combinedNamesAges = combine("Antoine", 23, "as-number");
+const combinedNamesAges = combine("14", "10", "as-number");
 console.log(combinedNamesAges);
 
 const combinedNames = combine("Antoine", "Kelly", "as-text");
