@@ -12,6 +12,6 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string) {
 const number1 = 14;
 const number2 = 10;
 const printResult = true;
-const resultPhrase = "The Result is :";
+const resultPhrase = "The Result is : ";
 
 add(number1, number2, printResult, resultPhrase);
