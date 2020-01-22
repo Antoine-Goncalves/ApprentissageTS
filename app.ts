@@ -15,4 +15,5 @@ function generateError(message: string, code: number) {
   };
 }
 
-generateError("What's an error", 500);
+const result = generateError("What's an error", 500);
+console.log(result);
