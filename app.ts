@@ -8,7 +8,7 @@ const person = {
   name: "Antoine",
   age: 23,
   hobbies: ["Football", "Musculation"],
-  role: [2, "author"]
+  role: Role.ADMIN
 };
 
 let favoriteActivities: string[];
@@ -18,4 +18,8 @@ console.log(person.name);
 
 for (let hobbie of person.hobbies) {
   console.log(hobbie.toUpperCase());
+}
+
+if (person.role === Role.ADMIN) {
+  console.log("It's Admin");
 }
