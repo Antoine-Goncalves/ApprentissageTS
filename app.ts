@@ -1,3 +1,9 @@
+enum Role {
+  ADMIN,
+  READ_ONLY,
+  AUTHOR
+}
+
 const person = {
   name: "Antoine",
   age: 23,
