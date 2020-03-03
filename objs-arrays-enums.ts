@@ -7,7 +7,7 @@ enum Role {
 const person = {
   name: "Antoine",
   age: 23,
-  hobbies: ["Football", "Musculation"],
+  hobbies: ["Football", "Sport"],
   role: Role.ADMIN
 };
 
